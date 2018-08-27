@@ -235,6 +235,23 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 100002, guid: 920abf7c8f9fe2c43a8b69c7b25f5eed, type: 3}
   m_PrefabInternal: {fileID: 1011412923}
+--- !u!143 &1165900010
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1165900009}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.25
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.92, z: 0}
 --- !u!114 &1165900012
 MonoBehaviour:
   m_ObjectHideFlags: 0
